@@ -38,6 +38,8 @@ function sortearAmigo() {
         let random = Math.floor(Math.random() * amigos.length);
         let sorteadoHTML = document.getElementById("listaAmigos");
         sorteadoHTML.innerHTML = `El nombre del amigos sorteado es: ${amigos[random]}`;
+    }else{
+        alert("No has ingresado ningún nombre");
     }
 
 }
